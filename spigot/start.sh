@@ -1,3 +1,5 @@
 #!/bin/bash
 
-java -Xms768M -Xmx768M -XX:+UseConcMarkSweepGC -jar spigot.jar --world-dir worlds"
+version=$1
+cd ${version}
+java -Xms1G -Xmx1G -XX:+UseConcMarkSweepGC -jar spigot-${version}.jar --world-dir worlds"
