@@ -16,8 +16,9 @@ hostname ${hostname}
 echo ${hostname} | sudo tee /etc/hostname
 
 # Install packages:
-apt-get update
-apt-get -y install openjdk-8-jre-headless git tmux screen
+apt-get -y install aptitude openjdk-8-jre-headless git tmux screen
+aptitude update
+aptitude safe-upgrade
 
 # Create a user for the minecraft app to run under:
 useradd -M -d ${minecraft_dir} -s /bin/bash ${minecraft_user}

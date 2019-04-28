@@ -1,0 +1,4 @@
+#!/bin/bash
+
+sudo -u minecraft /var/minecraft/spigot/start.sh 1.12.2 &
+exit 0

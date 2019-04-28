@@ -29,3 +29,9 @@ aliases:
   - time set day
   night:
   - time set night
+  tpi:
+  - tp JooJooDroolum
+  tpj:
+  - tp SuperNinjo
+  tpd:
+  - tp SuperJooJooDad
